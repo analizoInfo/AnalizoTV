@@ -1,0 +1,681 @@
+#SceneDefault {
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 1280px;
+	height : 720px;
+	background-color: transparent;
+	background-image : url('');
+}
+
+#SceneDefault #NoProg{
+	z-index : 97;
+	height: 22%;
+	width: 100%;
+	color: #c13d3d;
+	font-family: Bitter, arial, sans-serif;
+	margin-top: 10%;
+	text-align: center;
+}
+
+#SceneDefault #errorD{
+	position : absolute;
+	left : 440px;
+	top : 260px;
+	width: 400px;
+	background-color: black;
+	text-align: center;
+	background-color: #c13d3d;
+	color: #ffffff;
+	font: small-caps 2em Bitter, arial, sans-serif;
+	padding-top: 20px;
+	opacity: 0.95;
+	padding-bottom: 0.8em;
+}
+
+#SceneDefault #blackback{
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 1280px;
+	height : 100%;
+	background-color: #000;
+	opacity: 0.8;
+	z-index: -1;
+}
+
+#SceneDefault #barra{
+	position : absolute;
+	left : 0px;
+	top : 690px;
+	height: 30px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	font: small-caps 1em Bitter, arial, sans-serif;
+	
+}
+
+#SceneDefault #saludo{
+	float: left;
+	width: 50%;
+	padding-top: 0.3em;
+	padding-left: 1em;
+	
+}
+
+#SceneDefault #icons{
+	float: right;
+	width: 40%;
+	padding-top: 0.3em;	
+	text-align: right;
+	padding-right: 1em;
+}
+
+#SceneDefault #return, #info, #logout, #exit{
+	padding-right: 2em;
+}
+
+#SceneDefault #proyects {
+    width: 100%;
+    height: 100%;
+    background-color : transparent;
+    z-index: 97;
+}
+
+#SceneDefault #tvsignal
+{
+	position : fixed;
+	float:center;
+	left : 0px;
+	top : 0px;
+	width: 1280px;
+	height: 720px;
+	background-color: white;
+	z-index: -2;
+}
+
+#SceneDefault #lista{
+	z-index : 97;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+#SceneDefault #listaProx{
+	z-index : 97;
+	width: 100%;
+	height: 100%;
+	border: none;
+
+}
+
+#SceneDefault #colours{
+	z-index : 97;
+	height: 30%;
+	width: 100%;
+	border: none;
+	border-collapse:collapse;
+}
+
+#SceneDefault #programa1E, #programa2E, #programa3E, #programa4E, #programa5E, #programa6E, #programa7E, #programa8E, #programa9E, #programa0E, 
+#programa1P, #programa2P, #programa3P, #programa4P, #programa5P, #programa6P, #programa7P, #programa8P, #programa9P, #programa0P{
+	z-index : 97;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	border: none;
+}
+
+#SceneDefault #h2emi{
+	color: #83b321;
+	font-family: Bitter, arial, sans-serif;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+#SceneDefault #ayuda{
+	color: white;
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+	font: 0.6em Bitter, arial, sans-serif;
+}
+
+#SceneDefault #ayudaC{
+	color: white;
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+	font: 0.8em Bitter, arial, sans-serif;
+}
+
+#SceneDefault #h2prox{
+	color: white;
+	font-family: Bitter, arial, sans-serif;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+#SceneDefault #titulo{
+	position: relative;
+	color: #ffffff;
+	font-family: Bitter, arial, sans-serif;
+	width: 100%;
+	background-color: #83b321;
+	text-align:center;
+	float: left;
+}
+#SceneDefault #fix{
+	height: 80%;
+}
+
+#SceneDefault #hora{
+	position: relative;
+	color: #ffffff;
+	font-family: Bitter, arial, sans-serif;
+	width: 100%;
+	background-color: #20211f;
+	text-align:center;
+}
+
+
+#SceneDefault #emision{
+height: 42%;	
+}
+
+#SceneDefault #proximamente{
+height: 42%;	
+}
+
+#SceneDefault #emision td{
+	width: 100%;
+	/*Hay que generarlo dinamicamente dependiendo del num. de proyectos*/
+}
+
+#SceneDefault #proximamente td{
+	width: 20%;
+	/*Hay que generarlo dinamicamente dependiendo del num. de proyectos*/
+}
+
+
+#SceneDefault #emision #programa1E #titulo:before {
+    content: "1";
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: #c13d3d;
+    font: 8em arial, sans-serif;
+    top: 15px;
+    left: 0px;
+	text-shadow: 0 0 15px #000000;
+}
+  
+  #SceneDefault #emision #programa2E #titulo:before {
+      content: "2";
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      color: #c13d3d;
+      font: 8em arial, sans-serif;
+      top: 15px;
+      left: 0px;
+      text-shadow: 0 0 15px #000000;
+     
+    }
+    
+  #SceneDefault #emision #programa3E #titulo:before {
+        content: "3";
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        color: #c13d3d;
+        font: 8em arial, sans-serif;
+        top: 15px;
+        left: 0px;
+        text-shadow: 0 0 15px #000000;
+      }
+  
+  #SceneDefault #emision #programa4E #titulo:before {
+      content: "4";
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      color: #c13d3d;
+      font: 8em arial, sans-serif;
+      top: 15px;
+      left: 0px;
+      text-shadow: 0 0 15px #000000;
+  }
+  
+  #SceneDefault #emision #programa5E #titulo:before {
+      content: "5";
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      color: #c13d3d;
+      font: 8em arial, sans-serif;
+      top: 15px;
+      left: 0px;
+      text-shadow: 0 0 15px #000000;
+  }
+  
+  #SceneDefault #emision #programa6E #titulo:before {
+      content: "6";
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      color: #c13d3d;
+      font: 8em arial, sans-serif;
+      top: 15px;
+      left: 0px;
+      text-shadow: 0 0 15px #000000;
+  }
+  
+  #SceneDefault #emision #programa7E #titulo:before {
+      content: "7";
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      color: #c13d3d;
+      font: 8em arial, sans-serif;
+      top: 15px;
+      left: 0px;
+      text-shadow: 0 0 15px #000000;
+  }
+  
+  #SceneDefault #emision #programa8E #titulo:before {
+      content: "8";
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      color: #c13d3d;
+      font: 8em arial, sans-serif;
+      top: 15px;
+      left: 0px;
+      text-shadow: 0 0 15px #000000;
+  }
+  
+  #SceneDefault #emision #programa9E #titulo:before {
+      content: "9";
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      color: #c13d3d;
+      font: 8em arial, sans-serif;
+      top: 15px;
+      left: 0px;
+      text-shadow: 0 0 15px #000000;
+  }
+  
+  #SceneDefault #emision #programa0E #titulo:before {
+      content: "0";
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      color: #c13d3d;
+      font: 8em arial, sans-serif;
+      top: 15px;
+      left: 0px;
+      text-shadow: 0 0 15px #000000;
+  }  
+  /* Screen de Categorias */
+  
+  
+  #SceneDefault #overLogoC{
+	position : absolute;
+	left : 1190px;
+	top : 5px;
+	padding-top: 0.4em;
+	z-index : 97;
+	text-align: center;	
+	float: right;
+	}
+	
+	#SceneDefault #overDescripcionP{
+position : absolute;
+left : 0px;
+top : 0px;
+width: 100%;
+opacity: 0.9;
+background-color: black;
+}
+  
+  #SceneDefault #descripcionP{
+  width: 89%;
+  background-color: #83b321;
+  color: #ffffff;
+  float: left;
+  font: small-caps 1.2em Bitter, arial, sans-serif;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  
+  }
+  
+  #SceneDefault #alerta{
+  	position : absolute;
+  	left : 1000px;
+  	top : 50px;
+  	height: 70px;
+  	width: 250px;
+  	background-color: black;
+  	text-align: center;
+  	background-color: #83b321;
+  	color: #ffffff;
+  	font: small-caps 2em Bitter, arial, sans-serif;
+  	padding-top: 20px;
+  	opacity: 0.95;
+  }
+  
+  #SceneDefault #categorias{
+  	z-index : 97;
+  	height: 15%;
+  	width: 100%;
+  	border: none;
+  	border-collapse:collapse;
+  	opacity: 0.95;
+  }
+  
+  
+  #SceneDefault #fixCategorias{
+  	z-index : 97;
+  	height: 85%;
+  	width: 100%;
+  }
+  
+ #SceneDefault #redC{
+ 	z-index : 97;
+ 	background-color : #c13d3d;
+ 	width: 25%;
+ 	height: 100%;
+ 	text-align: center;
+ 	vertical-align: top;
+ 	font: small-caps 1.6em Bitter, arial, sans-serif;	
+ 	background-image : url('../../images/A.png');
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+ 	background-size: 83px;
+ }
+ 
+ #SceneDefault #blueC{
+ 	z-index : 97;
+ 	background-color : #7ebec8;
+ 	width: 25%;
+ 	height: 100%;
+ 	text-align: center;
+ 	vertical-align: top;
+ 	font: small-caps 1.6em Bitter, arial, sans-serif;	
+ 	background-image : url('../../images/D.png');
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+ 	background-size: 83px;
+ }
+ 
+ #SceneDefault #yellowC{
+ 	z-index : 97;
+ 	background-color : #e0ed14;
+ 	width: 25%;
+ 	height: 100%;
+ 	text-align: center;
+ 	vertical-align: top;
+ 	font: small-caps 1.6em Bitter, arial, sans-serif;
+ 	background-image : url('../../images/C.png');
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+ 	background-size: 83px;
+ }
+ 
+ #SceneDefault #greenC{
+ 	z-index : 97;
+ 	background-color : #83b321;
+ 	width: 25%;
+ 	height: 100%;
+ 	text-align: center;
+ 	vertical-align: top;
+ 	font: small-caps 1.6em Bitter, arial, sans-serif;
+ 	background-image : url('../../images/B.png');
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+ 	background-size: 83px;
+ }
+  
+  
+  /* Info del proyecto Pre-categorias */
+  #SceneDefault #infoOK{
+  	height: 8%;
+  	width: 100%;
+  	background-color: black;
+  	color: white;
+  	font: small-caps 1.5em Bitter, arial, sans-serif;
+  	text-align: center;
+  	padding-top: 0.3em;	
+  }
+  
+  #SceneDefault #infoTOP{
+  	height: 32px;
+  	width: 100%;
+  	background-color: black;
+  	color: white;
+  	font: small-caps 2em Bitter, arial, sans-serif;
+  	text-align: center;
+  	padding-top: 0.3em;	
+  }
+  
+  #SceneDefault #infoOKimg{
+  	padding-right: 0.2em;
+  	padding-left: 0.2em;
+  	padding-top: 10px;
+  	
+  }
+  #SceneDefault #infoP{
+  	height: 100%;
+  	width: 100%;
+  	float: left;
+  	background-color: white;
+  	background-size: cover;
+  	background-position: center; 
+  }
+  
+  #SceneDefault #infoMain{
+  	height: 82%;
+  	width: 100%;
+  }
+  
+  #SceneDefault #infoDescBack{
+  	height: 100%;
+  	width: 50%;
+  	float: left;
+  	 	
+  }
+  
+  #SceneDefault #infoDesc{
+  	width: 90%;
+  	float: left;
+  	background-color: white;
+  	opacity: 0.9;
+  	font-family: Bitter, arial, sans-serif;
+  	padding: 5%;
+  	height: 56%;
+  	text-align: justify;
+  }
+  
+  #SceneDefault #infoDesc a{
+  	text-decoration: none;
+  	color: #83b321;
+  }
+  
+  #SceneDefault #infoDescTitulo{
+  color: #ffffff;
+  font-family: Bitter, arial, sans-serif;
+  width: 100%;
+  background-color: #575956;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;	
+  }
+  #SceneDefault #infoDescTitulo2{
+  font-family: Bitter, arial, sans-serif;
+  width: 100%;
+  background-color: white;
+  opacity: 0.9;
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 10px;	
+  }
+  
+  #SceneDefault #infoDescPregunta{
+  color: #ffffff;
+  font-family: Bitter, arial, sans-serif;
+  width: 100%;
+  background-color: #575956;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;	
+  }
+  
+  #SceneDefault #infoDescPregunta2{
+  font-family: Bitter, arial, sans-serif;
+  width: 100%;
+  background-color: white;
+  opacity: 0.9;
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 10px;	
+  }
+  
+  #SceneDefault #clearBoth { clear:both; }
+  
+  #SceneDefault #infoDesc_Descripcion{
+  color: #ffffff;
+  font-family: Bitter, arial, sans-serif;
+  width: 100%;
+  background-color: #575956;
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 10px;		
+  }
+  
+  
+  #SceneDefault #infoDesc_Categorias{
+  color: #ffffff;
+  font-family: Bitter, arial, sans-serif;
+  width: 100%;
+  background-color: #575956;
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 10px;	
+  }
+  
+  #SceneDefault #infoCat{
+  	height: 550px;
+  	width: 50%;
+  	float: right;
+  	border-collapse: collapse;
+  }
+  
+  
+  #SceneDefault #redInfoIMG{
+  	width: 30%;
+  	background-color : white;
+  	opacity: 0.9;
+  	background-size: cover;
+  	background-position: center;
+  	background-image: url('../../images/AC.png');
+  	border-bottom: 1px solid #575956;
+  	
+  }
+  
+  #SceneDefault #blueInfoIMG{
+  	width: 30%;
+  	background-color : white;
+  	opacity: 0.9;
+  	background-size: cover;
+  	background-position: center;
+  	background-image: url('../../images/DC.png');
+  	
+  }
+  
+  #SceneDefault #greenInfoIMG{
+  	width: 30%;
+  	background-color : white;
+  	opacity: 0.9;
+  	background-size: cover;
+  	background-position: center;
+  	background-image: url('../../images/BC.png');
+  	border-bottom: 1px solid #575956;
+  	
+  }
+  
+  #SceneDefault #yellowInfoIMG {
+  	width: 30%;
+  	background-color : white;
+  	opacity: 0.9;
+  	background-size: cover;
+  	background-position: center;
+  	background-image: url('../../images/CC.png');
+  	border-bottom: 1px solid #575956;
+  	
+  }
+  
+  #SceneDefault #redInfoDesc,#yellowInfoDesc,#greenInfoDesc,#blueInfoDesc{
+  		font: 0.65em Bitter, arial, sans-serif;
+  }
+  
+  #SceneDefault #redInfo{
+  	z-index : 97;
+  	background-color : white;
+  	opacity: 0.9;
+  	height: 26%;
+  	width: 70%;
+  	vertical-align: top;
+  	font: small-caps 1.4em Bitter, arial, sans-serif;
+  	padding-left: 0.5em;
+  	border-left: 15px solid #c13d3d;
+  	border-bottom: 1px solid #575956;
+  }
+  #SceneDefault #blueInfo{
+  	z-index : 97;
+  	background-color : white;
+  	opacity: 0.9;
+  	height: 25%;
+  	width: 70%;
+  	vertical-align: top;
+  	font: small-caps 1.4em Bitter, arial, sans-serif;	
+  	padding-left: 0.5em;	
+  	border-left: 15px solid #7ebec8;
+  	
+  }
+  #SceneDefault #greenInfo{
+  	z-index : 97;
+  	background-color : white;
+  	opacity: 0.9;
+  	height: 25%;
+  	width: 70%;
+  	vertical-align: top;
+  	font: small-caps 1.4em Bitter, arial, sans-serif;	
+  	padding-left: 0.5em;	
+  	border-left: 15px solid #83b321;
+  	border-bottom: 1px solid #575956;
+  	
+  }
+  #SceneDefault #yellowInfo{
+  	z-index : 97;
+  	background-color : white;
+  	opacity: 0.9;
+  	height: 25%;
+  	width: 70%;
+  	vertical-align: top;
+  	font: small-caps 1.4em Bitter, arial, sans-serif;	
+  	padding-left: 0.5em;	
+  	border-left: 15px solid #e0ed14;
+  	border-bottom: 1px solid #575956;
+  	
+  }
+  
+  
+
